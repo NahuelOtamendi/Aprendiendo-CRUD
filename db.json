@@ -1,3 +1,9 @@
 {
-  "perfil": []
+  "perfil": [
+    {
+      "nombre": "Nahuel",
+      "email": "nahuotamendi@gmail.com",
+      "id": "0a6abeba-3c01-4f03-8a6f-5f19fd181300"
+    }
+  ]
 }

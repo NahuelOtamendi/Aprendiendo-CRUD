@@ -34,7 +34,7 @@ const crearNuevaLinea = (nombre, email, id) => {
     clientServices
       .eliminarCliente(id)
       .then((respuesta) => {
-        console.log(respuesta);
+        respuesta;
       })
       .catch((err) => alert("Ocurrio un error"));
   });
@@ -53,5 +53,5 @@ clientServices
     });
   })
   .catch(() => {
-    alert("Ocurrio un error");
+    window.location.href = "/screens/error.html";
   });
